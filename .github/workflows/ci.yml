@@ -28,6 +28,6 @@ jobs:
       - name: Run tests
         working-directory: .
         run: |
-        chmod +x gradlew
-        ./gradlew test
+          chmod +x gradlew
+          ./gradlew test
 
